@@ -1,9 +1,9 @@
 b43-fwcutter
 btrfs-progs
-clonezilla
-ddrescue
+exfat-utils
 dmraid
 dosfstools
+f2fs-tools
 exfat-utils
 f2fs-tools
 fsarchiver
@@ -23,8 +23,6 @@ refind-efi
 sdparm
 sg3_utils
 smartmontools
-sudo
-testdisk
 usb_modeswitch
 xorg-server
 gparted
