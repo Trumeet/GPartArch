@@ -2,7 +2,9 @@
 
 An ArchISO profile which contains basic Xorg server and GParted for disk maintenances.
 
-![In VirtualBox](https://i.loli.net/2019/02/11/5c6062711d021.jpg)
+![In VirtualBox](https://i.loli.net/2019/02/11/5c608402a6d74.jpg)
+
+![In VirtualBox 2](https://i.loli.net/2019/02/11/5c608415ec713.jpg)
 
 # Known issues
 
@@ -58,6 +60,10 @@ Finally, run:
 ```
 
 The ISO will be saved in `out/`
+
+# Shutting Down
+
+It will auto shutdown after you exit GParted.
 
 # Licenses
 WTFPL
