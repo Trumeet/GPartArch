@@ -2,9 +2,11 @@
 
 An ArchISO profile which contains basic Xorg server and GParted for disk maintenances.
 
+![In VirtualBox](https://i.loli.net/2019/02/11/5c6062711d021.jpg)
+
 # Known issues
 
-Because is my first time using ArchISO, it may has some issues which I'm not sure about.
+Because is my first time using ArchISO, it may have some issues which I'm not sure about.
 
 ## May cannot work if
 
@@ -13,7 +15,11 @@ Because is my first time using ArchISO, it may has some issues which I'm not sur
 
 ## My solution
 
-I had build the ISO on my Dell XPS 13 9360 (x86-64 platform) and it works on the laptop and another Huawei laptop (x86-64).
+I had built the ISO on my Dell XPS 13 9360 (x86-64 platform) and it works on the laptop and another Huawei laptop (x86-64).
+
+## Other Issues
+
+* Cursor isn't shown before a window is displayed.
 
 # Generate ISO
 
@@ -37,7 +43,7 @@ $ git clone https://github.com/Trumeet/GPartArch.git
 
 ## 0x02 Build the image
 
-It may took about 5 minutes.
+It may take about 5 minutes.
 
 If you had built it before, delete lock files:
 
