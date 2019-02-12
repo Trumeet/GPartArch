@@ -7,7 +7,7 @@ locale-gen
 
 ln -sf /usr/share/zoneinfo/UTC /etc/localtime
 
-usermod -s /usr/bin/zsh root
+usermod -s /usr/bin/bash root
 cp -aT /etc/skel/ /root/
 chmod 700 /root
 
@@ -20,3 +20,6 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 
 systemctl enable pacman-init.service choose-mirror.service
 systemctl set-default multi-user.target
+
+cat /root/.bash_profile_append >> /root/.bash_profile
+rm /root/.bash_profile_append
